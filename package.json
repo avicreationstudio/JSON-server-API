@@ -1,0 +1,31 @@
+{
+  "name": "json-server-api",
+  "version": "1.0.0",
+  "description": "A simple json server application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avicreationstudio/JSON-server-API.git"
+  },
+  "keywords": [
+    "json-server"
+  ],
+  "author": "Avinash Kumar 3000",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avicreationstudio/JSON-server-API/issues"
+  },
+  "homepage": "https://github.com/avicreationstudio/JSON-server-API#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-server": "^0.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  }
+}
